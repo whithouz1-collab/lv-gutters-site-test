@@ -1,0 +1,7 @@
+# netlify.toml — sits at the root of the repo
+[build]
+  publish = "."                       # serve the HTML files at the repo root
+  functions = "netlify/functions"     # where lead.js lives
+
+# Netlify already serves /gutter-cost-tampa-bay for gutter-cost-tampa-bay.html,
+# so your clean URLs work with no extra config.
